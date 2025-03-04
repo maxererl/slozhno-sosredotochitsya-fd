@@ -194,6 +194,7 @@ html {
 .main__section-image {
   display: block;
   width: 100%;
+  min-width: 355px;
   height: 100%;
   object-fit: cover;
 }
@@ -268,6 +269,10 @@ html {
   .pictures-section .main__section-header {
     grid-column: 1 / -1;
     grid-row: 1;
+  }
+
+  .main__section-image {
+    min-width: initial;
   }
 
   .main__section-image:nth-of-type(1) {
