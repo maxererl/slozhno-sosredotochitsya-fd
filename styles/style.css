@@ -188,6 +188,7 @@ html {
 
 .pictures-section {
   display: grid;
+  grid-template-columns: 1fr;
   gap: var(--page-offset);
 }
 
