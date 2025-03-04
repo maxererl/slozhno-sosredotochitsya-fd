@@ -187,6 +187,7 @@ html {
 }
 
 .pictures-section {
+  grid-column: 1 / -1;
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--page-offset);
@@ -262,7 +263,6 @@ html {
   }
 
   .pictures-section {
-    grid-column: 1 / -1;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: min-content min-content min-content min-content;
   }
