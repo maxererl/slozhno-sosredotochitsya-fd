@@ -189,7 +189,7 @@ html {
 .pictures-section {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(5, min-content);
+  grid-template-rows: repeat(6, min-content);
   gap: var(--page-offset);
 }
 
@@ -200,6 +200,26 @@ html {
   min-width: 355px;
   height: 100%;
   object-fit: cover;
+}
+
+.main__section-image:nth-of-type(1) {
+  grid-row: 2;
+}
+
+.main__section-image:nth-of-type(2) {
+  grid-row: 3;
+}
+
+.main__section-image:nth-of-type(3) {
+  grid-row: 4;
+}
+
+.main__section-image:nth-of-type(4) {
+  grid-row: 5;
+}
+
+.main__section-image:nth-of-type(5) {
+  grid-row: 6;
 }
 
 .footer {
