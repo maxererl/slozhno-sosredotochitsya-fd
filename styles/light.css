@@ -43,7 +43,8 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root.theme-auto {
+  
+  :root {
     --accent-color: #ff8dcb;
     --sub-accent-color: #ffc2e6;
     --main-text-color: #353430;
@@ -51,28 +52,28 @@
     --background-image: url(/images/cover-image-light.png);
   }
 
-  .theme-auto .page {
+   .page {
     color: var(--main-text-color);
   }
 
-  .theme-auto .decorated-zone::before,
-  .theme-auto .decorated-zone::after {
+   .decorated-zone::before,
+   .decorated-zone::after {
     border-color: var(--main-text-color);
   }
 
-  .theme-auto .decorative-text {
+   .decorative-text {
     display: none;
   }
 
-  .theme-auto .header__theme-menu-button {
+   .header__theme-menu-button {
     color: var(--main-text-color);
   }
 
-  .theme-auto .header__theme-menu-button_active {
+   .header__theme-menu-button_active {
     border-color: var(--main-text-color);
   }
 
-  .theme-auto .main__article-header {
+   .main__article-header {
     color: var(--main-text-color);
   }
 }
