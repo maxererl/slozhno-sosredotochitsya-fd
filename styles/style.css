@@ -189,8 +189,6 @@ html {
 .pictures-section {
   grid-column: 1 / -1;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, min-content);
   gap: var(--page-offset);
 }
 
@@ -326,7 +324,7 @@ html {
 }
 
 @media (width >= 1024px) {
-  
+
   .header {
     gap: 86px;
   }
