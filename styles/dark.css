@@ -11,11 +11,18 @@
   */
   --accent-color: #ff0070;
   --sub-accent-color: #db00ff;
-  --main-text-color: #f1b2ce;
   --conter-accent-color: #000028;
-  --background-image: url(/images/cover-image-dark.png);
+  --section-header-color: #ff0070;
+  --headers-text-color: #000028;
+  --main-text-color: #f1b2ce;
+  --buttons-color: #ff0070;
+  --background-image: url(../images/cover-image-dark.png);
 }
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+}
+
+.theme-dark .decorative-text {
+  display: flex;
 }

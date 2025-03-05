@@ -11,69 +11,18 @@
   */
   --accent-color: #ff8dcb;
   --sub-accent-color: #ffc2e6;
-  --main-text-color: #353430;
   --conter-accent-color: #fff1f7;
-  --background-image: url(/images/cover-image-light.png);
+  --section-header-color: #353430;
+  --headers-text-color: #353430;
+  --main-text-color: #353430;
+  --buttons-color: #353430;
+  --background-image: url(../images/cover-image-light.png);
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  color: var(--main-text-color);
-}
-
-.theme-light .decorated-zone::before,
-.theme-light .decorated-zone::after {
-  border-color: var(--main-text-color);
 }
 
 .theme-light .decorative-text {
   display: none;
-}
-
-.theme-light .header__theme-menu-button {
-  color: var(--main-text-color);
-}
-
-.theme-light .header__theme-menu-button_active {
-  border-color: var(--main-text-color);
-}
-
-.theme-light .main__article-header {
-  color: var(--main-text-color);
-}
-
-@media (prefers-color-scheme: light) {
-  
-  :root {
-    --accent-color: #ff8dcb;
-    --sub-accent-color: #ffc2e6;
-    --main-text-color: #353430;
-    --conter-accent-color: #fff1f7;
-    --background-image: url(/images/cover-image-light.png);
-  }
-
-  .page {
-    color: var(--main-text-color);
-  }
-
-  .decorated-zone::before,
-  .decorated-zone::after {
-    border-color: var(--main-text-color);
-  }
-
-  .decorative-text {
-    display: none;
-  }
-
-  .header__theme-menu-button {
-    color: var(--main-text-color);
-  }
-
-  .header__theme-menu-button_active {
-    border-color: var(--main-text-color);
-  }
-
-  .main__article-header {
-    color: var(--main-text-color);
-  }
 }
