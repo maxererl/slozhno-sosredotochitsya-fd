@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light" />
     <title>Сложно сосредоточиться</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
     <script src="./scripts/script.js"></script>
-    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/prefered-color-scheme.css" />
     <link rel="stylesheet" href="./styles/dark.css" />
     <link rel="stylesheet" href="./styles/light.css" />
   </head>
@@ -92,8 +93,10 @@
           </p>
         </article>
       </section>
-      <section class="main__section section-header-on-top">
-        <h2 class="main__section-header">Что снижает концентрацию внимания?</h2>
+      <section class="main__section">
+        <h2 class="main__section-header section-header-on-top">
+          Что снижает концентрацию внимания?
+        </h2>
         <article class="main__article">
           <h3 class="main__article-header title-decor">Многозадачность</h3>
           <p class="main__article-text">
@@ -200,7 +203,7 @@
         </article>
       </section>
       <!-- Убрал lazy load из-за автотестов гита -->
-      <article class="main__article pictures-article">
+      <section class="main__article pictures-article">
         <h3 class="main__article-header title-decor no-margin-bottom">
           А можно в картинках?
         </h3>
@@ -225,7 +228,7 @@
           src="./images/street.png"
           alt="Улица"
         />
-      </article>
+      </section>
     </main>
     <footer class="footer decorated-zone">
       <span class="footer__title title">focus</span>
