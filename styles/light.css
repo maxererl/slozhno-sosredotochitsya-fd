@@ -26,3 +26,21 @@
 .theme-light .decorative-text {
   display: none;
 }
+
+@media (prefers-color-scheme: light) {
+  
+  :root.theme-auto {
+    --accent-color: #ff8dcb;
+    --sub-accent-color: #ffc2e6;
+    --conter-accent-color: #fff1f7;
+    --section-header-color: #353430;
+    --headers-text-color: #353430;
+    --main-text-color: #353430;
+    --buttons-color: #353430;
+    --background-image: url(../images/cover-image-light.png);
+  }
+
+  .theme-auto .decorative-text {
+    display: none;
+  }
+}
